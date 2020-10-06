@@ -10,14 +10,6 @@
   bottom: 10px;
 }
 
-.season-display.winter i {
-  color: blue;
-}
-
-.season-display.summer i {
-  color: red;
-}
-
 .season-display {
   display: flex;
   align-items: center;
@@ -31,4 +23,12 @@
 
 .summer {
   background-color: orange;
+}
+
+.season-display.winter i {
+  color: blue;
+}
+
+.season-display.summer i {
+  color: red;
 }
